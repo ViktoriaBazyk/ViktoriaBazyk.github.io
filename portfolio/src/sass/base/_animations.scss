@@ -1,0 +1,82 @@
+@keyframes bounce {
+  0% {
+    top: 0;
+  }
+  100% {
+    top: 150%;
+  }
+}
+@keyframes bounce2 {
+  0% {
+    top: 0;
+  }
+  100% {
+    top: 100%;
+  }
+}
+@keyframes bounce3 {
+  0% {
+    top: 0;
+  }
+  100% {
+    top: 150%;
+  }
+}
+@keyframes bounce4 {
+  0% {
+    top: 0;
+  }
+  100% {
+    top: 100%;
+  }
+}
+@keyframes bounce5 {
+  0% {
+    top: 0;
+  }
+  100% {
+    top: 150%;
+  }
+}
+@keyframes bounce6 {
+  0% {
+    top: 0;
+  }
+  100% {
+    top: 100%;
+  }
+}
+@keyframes bounce7 {
+  0% {
+    top: 0;
+  }
+  100% {
+    top: 150%;
+  }
+}
+
+ 
+////////////////////////////////////////////////////////////////////////
+@keyframes swing {
+  0% {
+    -webkit-transform: rotate(-25deg);
+  }
+  50% {
+    -webkit-transform: rotate(25deg);
+  }
+  100% {
+    -webkit-transform: rotate(-25deg);
+  }
+}
+
+@keyframes swing-large {
+  0% {
+    -webkit-transform: rotate(-15deg);
+  }
+  50% {
+    -webkit-transform: rotate(15deg);
+  }
+  100% {
+    -webkit-transform: rotate(-15deg);
+  }
+}

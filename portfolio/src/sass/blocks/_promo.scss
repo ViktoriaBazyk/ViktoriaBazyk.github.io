@@ -1,0 +1,12 @@
+.promo {
+    height: 100vh;
+    position: relative;
+    background: url('../img/bg/bg2.jpg') no-repeat 50%/cover; /* правильно позиционирует картинку для адаптации */
+    // background-color: $main-color;
+    padding: 278px 0 0 50px;
+    z-index: 1;
+    &__btn {
+        display: inline-block;
+        margin-top: 25px;
+    }
+}

@@ -1,0 +1,37 @@
+.sidebar {
+    position: absolute;
+    position: fixed;
+    top: 285px;
+    left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 340px;
+    z-index: 3;
+    &__divider {
+        width: 2px;
+        height: 70px;
+        background-color: #ffffff;
+    }
+    &__link {
+        display: block;
+        &_linkedin {
+            width: 20px;
+            height: 20px;
+            border-radius: 2px;
+            transform: rotate(-90deg);
+            display: block;
+        }
+    }
+    &__text {
+        height: 145px;
+        width: 25px;
+        color: #ffffff;
+        span {
+            transform: rotate(-90deg) translate(-30%, -260%);
+            display: block;
+            width: 145px;
+        }
+    }
+}
